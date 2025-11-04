@@ -185,9 +185,10 @@ body {
 .lista-produktow {
   display: flex;
   gap: 40px;
-  padding-bottom: 10px;
+  padding: 20px;
   overflow-x: auto;
   scroll-behavior: smooth;
+  margin-top: 800px; 
 }
 
 .produkt {
@@ -195,15 +196,17 @@ body {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
-  min-width: 350px; 
-  position: relative;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  min-width: 340px;
   margin-left: 50px;
+  
 }
+
+
 
 .obrazek-produktu {
   width: 103%;
@@ -230,6 +233,7 @@ body {
   font-weight: bold;
   color: #e74c3c;
   margin-bottom: 10px;
+  
 }
 
 .cena-stara {
@@ -256,15 +260,375 @@ body {
 
 .etykieta-nowa {
   position: absolute;
-  top: 10px;
+  top: 1620px;
   left: 10px;
   background-color: #2ecc71;
   color: white;
-  font-size: 12px;
-  padding: 4px 8px;
+  font-size: 18px;
+  padding: 10px 16px;
   border-radius: 4px;
   font-weight: bold;
 }
+
+.etykieta-promocja {
+  position: absolute;
+  top: 1560px;
+  left: 10px;
+  background-color: #c92727;
+  color: white;
+  font-size: 22px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+
+.niebieski {
+  position: absolute;
+  top: 950px;
+  left: 0px;
+}
+
+.niebieski1 {
+  width: 1905px;
+  height: auto;
+}
+
+
+
+.Polecane {
+  position: absolute;
+  top: 1250px;
+  left: 200px;
+}
+
+.Polecan1 {
+  width: 500px;
+  height: auto;
+}
+
+.etykieta-promocja1 {
+  position: absolute;
+  top: 1560px;
+  left: 1470px;
+  background-color: #c92727;
+  color: white;
+  font-size: 22px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.etykieta-nowa1 {
+  position: absolute;
+  top: 1580px;
+  left: 500px;
+  background-color: #2ecc71;
+  color: white;
+  font-size: 18px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.baner {
+  position: absolute;
+  top: 2350px;
+  left: 0px;
+}
+
+.baner1 {
+  width: 1905px;
+  height: auto;
+}
+
+.Polecane1 {
+  position: absolute;
+  top: 1250px;
+  left: 200px;
+}
+
+.Polecan11 {
+  width: 500px;
+  height: auto;
+}
+
+.etykieta-promocja2 {
+  position: absolute;
+  top: 3150px;
+  left: 25px;
+  background-color: #c92727;
+  color: white;
+  font-size: 22px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.etykieta-nowa2 {
+  position: absolute;
+  top: 3200px;
+  left: 25px;
+  background-color: #2ecc71;
+  color: white;
+  font-size: 18px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.lista-produktow1 {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin-top: 900px; 
+}
+
+.produkt1 {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 340px;
+  margin-left: 50px;
+}
+
+.obrazek-produktu1 {
+  width: 103%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.tytul-produktu1 {
+  font-size: 15px;
+  color: #313131;
+  margin-top: 20px;
+}
+
+.cena-produktu1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #313131;
+  margin-bottom: 10px;
+}
+
+.cena-promocyjna1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.cena-stara1 {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.przycisk-koszyk1 {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.przycisk-koszyk1:hover {
+  background-color: #27ae60;
+}
+
+.etykieta-nowa11 {
+  position: absolute;
+  top: 3150px;
+  left: 500px;
+  background-color: #2ecc71;
+  color: white;
+  font-size: 18px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.etykieta-promocja11 {
+  position: absolute;
+  top: 3150px;
+  left: 1470px;
+  background-color: #c92727;
+  color: white;
+  font-size: 22px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+
+.nowosci {
+  position: absolute;
+  top: 2950px;
+  left: 150px;
+}
+
+.nowosci1 {
+  width: 350px;
+  height: auto;
+}
+
+.reszta {
+  position: absolute;
+  top: 3800px;
+  left: 840px;
+}
+
+.reszta1 {
+  width: 250px;
+  height: auto;
+}
+
+.prostokat-bialy1 {
+  position: absolute;      
+  top: 4000px;              
+  left: 0px;            
+  width: 1904px;           
+  height: 800px;           
+  background: #ffffff;     
+}
+
+.naglowek {
+  position: absolute;
+  top: 4150px;
+  left: 200px;
+}
+
+.naglowek1 {
+  width: 700px;
+  height: auto;
+}
+
+
+.blok-tekstu1 {
+  position: absolute;     
+  top: 4110px;             
+  left: 950px;            
+  width: 900px;           
+  background: #ffffff;    
+  padding: 20px;
+
+  
+  font-family: Arial, sans-serif;
+  
+}
+
+.blok-tekstu1 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.blok-tekstu1 p {
+  font-size: 26px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.blok-tekstu1 a {
+  display: inline-block;   
+  margin-top: 40px;       
+  font-size: 22px;
+  color: #414643;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blok-tekstu1 a:hover {
+  text-decoration: underline;
+}
+
+.prostokat-zielony1 {
+  position: absolute;      
+  top: 4700px;              
+  left: 0px;            
+  width: 1904px;           
+  height: 600px;           
+  background: #24781A;     
+}
+
+
+
+.teskt3 {
+  position: absolute;
+  top: 4780px;
+  left: 690px;
+}
+
+.teskt311 {
+  width: 400px;
+  height: auto;
+}
+
+.idk {
+  position: absolute;
+  top: 5150px;
+  left: 600px;
+}
+
+.idk1 {
+  width: 600px;
+  height: auto;
+}
+
+.newsletter2 {
+  position: absolute;   
+  top: 4950px;          
+  left: 590px;          
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.newsletter-input2 {
+  width: 580px;         
+  height: 56px;         
+  border: none;         
+  padding: 0 15px;
+  font-size: 16px;
+  outline: none;        
+}
+
+.ikona-szukaj1 {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  height: auto;
+  pointer-events: none;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
