@@ -621,8 +621,269 @@ body {
 
 
 
+.blok-tekstu2 {
+  position: absolute;     
+  top: 5550px;             
+  left: 760px;            
+  width: 900px;           
+    
+  padding: 20px;
+
+  
+  font-family: Arial, sans-serif;
+  
+}
+
+.blok-tekstu2 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.blok-tekstu2 p {
+  font-size: 30px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.blok-tekstu2 a {
+  display: inline-block;   
+  margin-top: 40px;       
+  font-size: 22px;
+  color: #050505;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blok-tekstu2 a:hover {
+  text-decoration: underline;
+}
+
+.blok-tekstu3 {
+  position: absolute;     
+  top: 5300px;             
+  left: 100px;            
+  width: 900px;   
+  font-size: 62px;        
+    
+  padding: 20px;
+
+  
+  font-family: Varela Round;
+  
+}
 
 
+
+.book1 {
+  position: absolute;
+  top: 5550px;
+  left: 100px;
+}
+
+.book3 {
+  width: auto;
+  height: auto;  /*nie da sie powiekszyc cos sie zepsluo idk */
+}
+
+
+.blok-tekstu4 {
+  position: absolute;     
+  top: 5470px;             
+  left: 750px;            
+  width: 900px;   
+  font-size: 38px;        
+    
+  padding: 20px;
+
+  
+  font-family: Varela Round;
+  
+}
+
+.blok-tekstu5 {
+  position: absolute;     
+  top: 5890px;             
+  left: 29px;            
+  width: 900px;   
+  font-size: 42px;        
+    
+  padding: 20px;
+
+  
+  font-family: Varela Round;
+  
+}
+
+.blok-tekstu6 {
+  position: absolute;     
+  top: 5970px;             
+  left: 30px;            
+  width: 900px;   
+  font-size: 29px;
+  max-width: 700px;        
+    
+  padding: 20px;
+
+  
+  font-family: Varela Round;
+  
+}
+
+.blok-tekstu6 a {
+  display: inline-block;   
+  margin-top: 40px;       
+  font-size: 28px;
+  color: #050505;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.book7 {
+  position: absolute;
+  top: 5950px;
+  left: 770px;
+}
+
+.book4 {
+  width: 950px;
+  height: auto;
+}
+
+
+
+.book12 {
+  position: absolute;
+  top: 6650px;
+  left: 70px;
+}
+
+.book15 {
+  width: auto;
+  height: 1000px;  /* tez nie dzialo to xd*/
+}
+
+.blok-tekstu12 {
+  position: absolute;     
+  top: 6470px;             
+  left: 50px;            
+  width: 900px;   
+  font-size: 38px; 
+  max-width: 720px;       
+    
+  padding: 20px;
+
+  
+  font-family: Varela Round;
+  
+}
+
+.blok-tekstu14 {
+  position: absolute;     
+  top: 6600px;             
+  left: 735px;            
+  width: 900px;   
+  font-size: 35px;      
+  max-width: 10000px;  
+    
+  padding: 20px;
+
+  
+  font-family: Varela Round;
+  
+}
+
+
+.blok-tekstu14 a {
+  display: inline-block;   
+  margin-top: 40px;       
+  font-size: 28px;
+  color: #050505;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.linki {
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start;
+  background-color: white;
+  width: 100%;
+  padding: 00px;
+  position: absolute;
+  top: 7100px;
+  left: 0;
+}
+
+.kolumna {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+}
+
+.kolumna p {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #313131;
+  margin-bottom: 15px;
+}
+
+.kolumna ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.kolumna li {
+  margin-bottom: 10px;
+}
+
+.kolumna a {
+  text-decoration: none;
+  font-family: 'Varela Round';
+  font-size: 12px;
+  line-height: 14px;
+  color: #313131;
+}
+
+.strzalkagora {
+  background-color: #24781a;
+  border: none;
+  height: 35px;
+  width: 55px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  margin-left: 20px; 
+  margin-top: 65px;
+}
+
+.zakonczenie {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  top: 7275px; 
+  left: 0;
+}
+
+.shoper {
+  font-family: 'Varela Round';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-decoration: underline;
+  color: #313131;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+}
 
 
 
