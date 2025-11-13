@@ -1,0 +1,152 @@
+
+
+:root {
+  --gap: 16px;
+  --card-min: 160px;
+  --brand-width: 160px;
+  --accent-green: #2ecc71;
+  --accent-red: #c92727;
+  --text: #313131;
+  --muted: #999;
+  --bg: #F5F5F5;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {;height: 100%; font-family: Arial, sans-serif; background: var(--bg); color: var(--text); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+img { max-width: 100%; height: auto; display: block; }
+
+
+.site-wrapper { max-width: 1200px; margin: 0 auto; padding: 16px; }
+
+
+.header-row { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.left-group { display: flex; gap: 12px; align-items: center; }
+.center-group { display: flex; gap: 12px; align-items: center; flex: 1 1 320px; justify-content: center; min-width: 220px; }
+.right-group { display: flex; gap: 10px; align-items: center; }
+
+
+.logo-image { width: 182px; height: auto; position: absolute; top: 0%; left: 53%; }
+.brand-image { width: var(--brand-width); height: 140px; position: absolute; top: 21.5%; left: 4%;}
+
+
+
+.bar-image { width: 220px; max-width: 100%; position: absolute; top: 15%; left: 10%; }
+
+
+.search-block {  position: absolute; top: 14%; left: 10%; width: 80%; max-width: 520px; }
+.search-input { width: 100%; padding: 10px 44px 10px 12px; font-size: 15px; border-radius: 8px; border: 1px solid #ddd; background: #fff; }
+.search-icon { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; opacity: 0.9; }
+
+
+.icons-group img { width: 28px; height: auto; position: absolute; top: 0%; left: 100%; }
+
+
+.horizontal-image { width: 600px; height: auto; border-radius: 0px; margin: 12px 0; object-fit: cover;   position: absolute;
+  top: 20%;      
+  left: 0%; }
+
+
+.promo-row { display: flex; gap: 10px; align-items: center; margin: 8px 0 20px; flex-wrap: wrap;  }
+.promotion-image { width: 48px; height: auto; }
+.number-image { width: 44px; height: auto; }
+.title-image { width: auto; max-width: 240px; }
+
+
+.recommended-products { font-family: 'Varela Round', sans-serif; font-size: 22px; margin: 14px 0; padding-left: 4px; }
+
+
+.products-list, .products-list-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-min), 1fr));
+  gap: var(--gap);
+  margin: 8px 0 24px;
+  padding: 0;
+}
+
+.product {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #eee;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 220px;
+}
+
+.product-image { width: 100%; height: auto; object-fit: contain; border-radius: 6px; }
+.product-title { font-size: 15px; margin-top: 6px; color: var(--text); }
+.product-price { font-size: 16px; font-weight: 700; color: var(--text); }
+.discount-price { font-size: 16px; font-weight: 700; color: #e74c3c; }
+.old-price { text-decoration: line-through; color: var(--muted); margin-left: 6px; font-weight: 400; }
+
+
+.labels { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.new-label { background: var(--accent-green); color: #fff; padding: 6px 8px; border-radius: 6px; font-weight: 700; font-size: 13px; }
+.discount-label { background: var(--accent-red); color: #fff; padding: 6px 8px; border-radius: 6px; font-weight: 700; font-size: 13px; }
+
+
+.add-to-cart { background: var(--accent-green); color: #fff; border: none; padding: 10px; border-radius: 8px; font-size: 15px; cursor: pointer; }
+.add-to-cart:hover { filter: brightness(0.95); }
+
+
+.benefits-image { width: 200%; border-radius: 0px; margin: 12px 0; }
+.recommended-banner-image { width: 100%;  margin: 12px 0; }
+.banner-image { width: 100%; border-radius: 0px; margin: 12px 0; }
+
+
+.content-blocks { margin: 8px 0 24px; display: grid; gap: 12px; }
+.header-image { width: 100%; max-width: 700px; }
+.text-block1, .text-block2, .text-block5, .text-block7 { background: #fff; padding: 14px; border-radius: 0px; line-height: 1.5; }
+.text-block1 p, .text-block2 p { font-size: 16px; color: var(--text); }
+.text-block1 a, .text-block2 a, .text-block5 a, .text-block7 a { color: #050505; text-decoration: none; font-weight: 700; margin-top: 6px; display: inline-block; }
+.blog-section p { font-family: 'Varela Round', sans-serif; font-size: 28px; }
+
+
+.newsletter-section { display: flex; gap: 8px; align-items: center; padding: 8px; background: #fff; border-radius: 0px; box-shadow: 0 6px 20px rgba(0,0,0,0.04); }
+.newsletter-input { flex: 1; padding: 12px; border: 1px solid #eee; border-radius: 0px; font-size: 15px; }
+.newsletter-submit { background: transparent; border: none; padding: 8px; border-radius: 0px; cursor: pointer; }
+
+
+.book-image1, .book-image2, .book-image3 { width: 100%; border-radius: 8px; }
+
+
+.footer-links { display: grid; grid-template-columns: 1fr; gap: 12px; background: #fff; padding: 16px; border-radius: 0px; margin: 18px 0; }
+.column p { font-weight: 600; font-size: 16px; margin-bottom: 8px; }
+.column a { text-decoration: none; color: var(--text); font-size: 14px; }
+
+
+.footer-credits { display: flex; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 40px; }
+.shoper { text-decoration: underline; color: var(--text); }
+.scroll-to-top img { width: 26px; }
+
+
+.visually-hidden { position: absolute !important; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+
+
+@media (min-width: 600px) {
+  .products-list, .products-list-2 { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  .logo-image { width: 80px; }
+  .brand-image { width: 200px;}
+  .blog-section p { font-size: 36px; }
+  .header-row { align-items: center; }
+  .footer-links { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+@media (min-width: 992px) {
+  .site-wrapper { padding: 24px; }
+  .header-row { gap: 24px; }
+  .center-group { justify-content: center; }
+  .products-list { grid-template-columns: repeat(4, 1fr); }
+  .products-list-2 { grid-template-columns: repeat(4, 1fr); }
+  .footer-links { grid-template-columns: repeat(5, 1fr); }
+  .blog-section p { font-size: 62px; }
+  .brand-image { width: 260px; }
+}
+
+
+@media (max-width: 360px) {
+  .benefits-image, .banner-image { display: none; }
+}
